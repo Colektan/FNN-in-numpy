@@ -1,10 +1,12 @@
-### 训练模型
+### Train the model.
 
-打开py文件：test_train.py，修改各类参数并运行，即可在MNIST数据集上开始全连接神经网络的训练。
+Open test_train.py, modify parameters and run it.
+ 
+If you want to train the model on your own dataset, just change the values of variable *train_images_path* and *train_labels_path*
 
-### 测试模型
+### Test the model.
 
-打开py文件：test_model.py，在model.load_model()中填入模型参数的路径，运行就可以进行测试。
+Open test_model.py, specify the saved model's path and the test dataset's path, then run the script, the script will output the accuracy on the test dataset.
 
 
 
